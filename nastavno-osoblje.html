@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META TAGS -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Dobrodošli na zvaničnu stranicu Osnovne Škole 'Sveti Sava' u Istočnom Novom Sarajevu. Ovdje možete pronaći informacije o školi, vijestima, aktivnostima, i mnogo više.">
+        <meta name="keywords" content="Osnovna Škola, Sveti Sava, Istočno Novo Sarajevo, Obrazovanje, Vijesti, Informacije, Učenici, Kontakt, Medalje, Trofeji, Takmičenja, Republika Srpska, Sarajevsko-Romanijska Regija, Školske Aktivnosti, Svetosavska Nagrada, Milan Šobot, Republika Srpska Rođendan, Crveni Krst, Milka, Školski Program, Nastavnici, Roditelji, Upis, Proslava Dana Republike Srpske, Karađorđeva 1, 2024.">
+        <meta name="author" content="Velimir Paleksić">
+
+        <!-- FAVICON -->
+        <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+
+        <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/Favicon-16x16.png">
+
+        <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+
+        <!-- TITLE -->
+        <title>Nastavno osoblje | OŠ Sveti Sava</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- JAVASCRIPT -->
+        <script defer src="assets/js/main.js"></script>
+        <script defer src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img id="logo" src="assets/img/logo.png">
+                <h3><a href="index.html">OŠ "Sveti Sava"</a></h3>
+            </div>
+            <nav class="desktop-navigation">
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="vijesti.html">Vijesti</a></li>
+                    <li><a href="o-školi.html">O školi</a></li>
+                    <li><a href="učenici.html">Učenici</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            
+            <a id="mobile-nav-parent" onclick="ToggleMenu()" style="display: none;">
+                <nav class="mobile-nav">
+                    <box-icon name='menu-alt-right' size="1.8em"></box-icon>
+                </nav>
+            </a>
+        </header>
+
+        <div class="mobile-navigation" style="display: none;">
+            <hr>
+            <button onclick="location.href='index.html'" class="nav-item">
+                <box-icon name='home-alt' color="#6e6e6e"></box-icon>
+                <p>Početna</p>
+            </button>
+            <hr>
+            <button onclick="location.href='vijesti.html'" class="nav-item">
+                <box-icon name='news' color="#6e6e6e"></box-icon>
+                <p>Vijesti</p>
+            </button>
+            <hr>
+            <button onclick="location.href='o-školi.html'" class="nav-item">
+                <box-icon name='graduation' type='solid' color="#6e6e6e"></box-icon>
+                <p>O školi</p>
+            </button>
+            <hr>
+            <button onclick="location.href='učenici.html'" class="nav-item">
+                <box-icon name='user' color="#6e6e6e"></box-icon>
+                <p>Učenici</p>
+            </button>
+            <hr>
+            <button onclick="location.href='kontakt.html'" class="nav-item">
+                <box-icon name='phone-call' color="#6e6e6e"></box-icon>
+                <p>Kontakt</p>
+            </button>
+            <hr>
+        </div>
+
+        <main>
+            <div class="info">
+                <h2>Aktiv matematike, fizike, informatike i tehničkog obrazovanja</h2>
+                <hr>
+                <p>
+                    <b>Nastavnik matematike</b>: Pejović Nenad<br>
+                    <b>Nastavnik matematike</b>: Pašalić Marko<br>
+                    <b>Nastavnik matematike</b>: Vukašinović Davor<br>
+                    <b>Nastavnik matematike</b>: Ristović Jelena<br>
+                    <b>Nastavnik fizike</b>: Ždrale Olga<br>
+                    <b>Nastavnik fizike</b>: Miletić Vinka<br>
+                    <b>Nastavnik informatike</b>: Pušonja Đorđe<br>
+                    <b>Nastavnik informatike</b>: Todorović Slađan<br>
+                    <b>Nastavnik informatike</b>: Kubatlija Stana<br>
+                    <b>Nastavnik tehničkog obrazovanja</b>: Kašić Alena
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Aktiv srpskog jezika</h2>
+                <hr>
+                <p>
+                    <b>Nastavnik srpskog jezika</b>: Sladoje Novka<br>
+                    <b>Nastavnik srpskog jezika</b>: Jašarević Vesna<br>
+                    <b>Nastavnik srpskog jezika</b>: Čavarkapa Miroslav<br>
+                    <b>Nastavnik srpskog jezika</b>: Tolj-Vasović Željka
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Aktiv stranih jezika</h2>
+                <hr>
+                <p>
+                    <b>Nastavnik engleskog jezika</b>: Kalačanović Dragana<br>
+                    <b>Nastavnik engleskog jezika</b>: Lazarević Maja<br>
+                    <b>Nastavnik engleskog jezika</b>: Radišić Sanja<br>
+                    <b>Nastavnik engleskog jezika</b>: Subotić Mira<br>
+                    <b>Nastavnik engleskog jezika</b>: Vanja Krunić<br>
+                    <b>Nastavnik engleskog jezika</b>: Subotić Mira<br>
+                    <b>Nastavnik nemačkog jezika</b>: Nišić Mirka<br>
+                    <b>Nastavnik nemačkog jezika</b>: Motika Sanja                                   
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Aktiv hemije i biologije</h2>
+                <hr>
+                <p>
+                    <b>Nastavnik hemije</b>: Ždrale Jovanka<br>
+                    <b>Nastavnik biologije</b>: Novaković Simana<br>
+                    <b>Nastavnik biologije</b>: Samarđić Aleksandra
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Aktiv istorije, geografije, demokratije i vjeronauke</h2>
+                <hr>
+                <p>
+                    <b>Nastavnik istorije</b>: Maksimović Miljan<br>
+                    <b>Nastavnik istorije</b>: Turuntaš K. Aleksandra<br>
+                    <b>Nastavnik istorije</b>: Marković Sena<br>
+                    <b>Nastavnik geografije</b>: Kostović Dragica<br>
+                    <b>Nastavnik geografije</b>: Uljarević Dragan<br>
+                    <b>Nastavnik geografije</b>: Radan Željka<br>
+                    <b>Nastavnik demokratije</b>: Milinković Mladen<br>
+                    <b>Vjeroučitelj</b>: Kolarić Nebojša<br>
+                    <b>Vjeroučitelj</b>: Drašković Miloš<br>
+                    <b>Vjeroučitelj</b>: Kovač Dragana<br>                    
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Aktiv fizičkog vaspitanja, likovne kulture i muzičke kulture</h2>
+                <hr>
+                <p>
+                    <b>Nastavnik fizičkog vaspitanja</b>: Savić Borjana<br>
+                    <b>Nastavnik fizičkog vaspitanja</b>: Mizdrak Borislav<br>
+                    <b>Nastavnik likovne kulture</b>: Stefanović Mirjana<br>
+                    <b>Nastavnik likovne kulture</b>: Lubura Mirjana<br>
+                    <b>Nastavnik muzičke kulture</b>: Čavarkapa Mirjana<br>
+                    <b>Nastavnik muzičke kulture</b>: Cerović Nebojša<br>                                    
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Aktiv učitelja</h2>
+                <hr>
+                <p>
+                    <b>Učitelj</b>: Snežana Trifković<br>
+                    <b>Učitelj</b>: Borislavka Bojović<br>
+                    <b>Učitelj</b>: Jelena Banduka<br>
+                    <b>Učitelj</b>: Dijana Regoje<br>
+                    <b>Učitelj</b>: Nataša Divljanović<br>
+                    <b>Učitelj</b>: Vesna Šehovac<br>
+                    <b>Učitelj</b>: Ivana Dragović<br>
+                    <b>Učitelj</b>: Dragana Cvetković<br>
+                    <b>Učitelj</b>: Gordana Dragaš - Mojević<br>
+                    <b>Učitelj</b>: Brankica Lalović<br>
+                    <b>Učitelj</b>: Aleksandra Bojović<br>
+                    <b>Učitelj</b>: Ana Čvoro<br>
+                    <b>Učitelj</b>: Ninoslava Šulejić<br>
+                    <b>Učitelj</b>: Jovana Mitrović<br>
+                    <b>Učitelj</b>: Sanja Stanojević<br>
+                    <b>Učitelj</b>: Danka Močević<br>
+                    <b>Učitelj</b>: Gordana Vujčić<br>
+                    <b>Učitelj</b>: Aleksandra Janić<br>
+                    <b>Učitelj</b>: Miljana Govedarica<br>
+                    <b>Učitelj</b>: Andrea Vukobrat Regoje<br>
+                    <b>Učitelj</b>: Draženka Košarac<br>
+                    <b>Učitelj</b>: Sonja Tuševljak<br>
+                    <b>Učitelj</b>: Vera Paleksić<br>
+                    <b>Učitelj</b>: Ranka Kostić<br>
+                    <b>Učitelj</b>: Vladan Šuka<br>
+                    <b>Učitelj</b>: Milica Purković<br>
+                    <b>Učitelj</b>: Sladjana Bobić
+                </p>
+            </div>
+        </main>
+
+        <div class="city-wrapper">
+            <div class="link">
+                <a href="http://www.opstinains.net/"><img src="assets/img/logoi/istocno-novo-sarajevo.webp"></a>
+            </div>
+            <div class="link">
+                <a href="https://www.vladars.net/sr-SP-Cyrl/Vlada/Ministarstva/mpk/Pages/default.aspx"><img src="assets/img/logoi/republika-srpska.png"></a>
+            </div>
+            <div class="link">       
+                <a href="https://gradistocnosarajevo.net/"><img src="assets/img/logoi/istocno-sarajevo.webp"></a>
+            </div>
+        </div>
+
+        <footer>
+            <h1><a href="index.html">OŠ "Sveti Sava"</a></h1>
+            <hr>
+            <p>
+                Osnovna Škola "Sveti Sava", Karađorđeva 1, Istočno Novo Sarajevo.<br>
+                E-mail: <a href="mailto:os189@skolers.org">os189@skolers.org</a>, Tel/faks: <a href="tel:38757340414">+387 57 340 414</a>.<br>
+                © Copyright 2024 OŠ "Sveti Sava". All Rights Reserved.<br>
+                Designed by <a href="https://github.com/velimirpaleksic">Velimir Paleksić</a>.
+            </p>
+        </footer>
+    </body>
+</html>
