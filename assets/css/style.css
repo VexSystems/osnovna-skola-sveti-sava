@@ -547,6 +547,11 @@ footer h1 a {
 .welcome .welcome-image img {
     box-shadow: 4px 4px 15px black;
     width: 100%;
+    transition: transform 0.4s;
+}
+
+.welcome .welcome-image img:hover {
+    transform: scale(1.1);
 }
 
 .welcome .welcome-text,

@@ -1,1 +1,1 @@
-[Site](https://velimirpaleksic.github.io/osnovna-skola-sveti-sava/)
+[Website](https://velimirpaleksic.github.io/osnovna-skola-sveti-sava/)
