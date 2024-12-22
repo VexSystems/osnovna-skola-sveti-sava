@@ -2,11 +2,11 @@
 
 ### Uživo Website 👀
 
-- ### [Uživo Website](https://velimirpaleksic.github.io/osnovna-skola-sveti-sava/)
+- ### [Uživo Website](https://vexsystems.github.io/osnovna-skola-sveti-sava/)
 
 ### Greške & nadogradnje 🧩
-- [Prijavi grešku](https://github.com/velimirpaleksic/osnovna-skola-sveti-sava/issues)
-- [Zatraži nadogradnju](https://github.com/velimirpaleksic/osnovna-skola-sveti-sava/issues)
+- [Prijavi grešku](https://github.com/vexsystems/osnovna-skola-sveti-sava/issues)
+- [Zatraži nadogradnju](https://github.com/vexsystems/osnovna-skola-sveti-sava/issues)
 
 ### Sekcije 📚
 - Dobro došli
