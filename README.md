@@ -6,12 +6,10 @@
 
 ## **Sekcije** 📚
 - Dobro došli
-- Istaknuta jela
+- Oglasna tabla
+- Vijesti
 - Radno osoblje
-- Recenzije
 - O nama
-- Meni
-- Rezervacija
 - Galerija
 - Kontakt informacije
 
